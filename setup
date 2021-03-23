@@ -74,7 +74,7 @@ if grep -q "termux-fingerprint" $FILE; then
 
   #else exit
   else
-    error_exit "Authenticatiin Error"
+    error_exit "Authentication Error"
   fi
 
 #if lock do not exist. set one
@@ -94,7 +94,7 @@ else
 
   #else skip setup and exit
   else
-    error_exit "Authenticatiin Error"
+    error_exit "Authentication Error"
   fi
 fi
 
